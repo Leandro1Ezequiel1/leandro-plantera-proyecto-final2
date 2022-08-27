@@ -1,0 +1,99 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #FFCF56;
+}
+.navbar{
+    background-color: #FFCF56;
+    flex-wrap: wrap;
+    align-items: center;   
+    justify-content: end;
+}
+.logo{
+    height: 100px;
+    width: 100px;
+    position: relative;
+    right: 832px;
+}
+.navbar navbar-expand-lg{
+    background-color: #FFCF56;
+}
+h1{
+    font-size: x-large;
+    text-align: center;
+    
+}
+.carousel {
+    position: relative;
+    width: 734px;
+    height: 534px;
+    left: 300px;
+}
+body{
+    background-color: #AAAE7F;
+}
+.lista{
+    text-align: center;
+    list-style: none;
+    background-color:#A0E8AF ;
+    position: relative;
+    bottom: -17px;
+}
+footer{
+    background-color: #3AB795;
+    position: relative;
+    top: 17px;
+    text-align: center;
+
+}
+.imag1{
+    
+    height: 400px;
+    width: 400px;
+}
+.GridContainer{
+    display: grid;
+    grid-template-columns: 500px 500px;
+    grid-template-rows: 500px 500px;
+    position: relative;
+    justify-content: center;
+    text-align: center;
+}
+
+table{
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+}
+td{
+border-color: inherit;
+border-style: solid;
+border-width: 2px;
+}
+.galeria{
+    display: block;
+}
+.imagGaleria{
+    border-radius: 30px;   
+}
+.imagGaleria2{ 
+    border-radius: 30px;
+    position: relative;
+    top: -136px;
+    left: 524px;
+}
+.imagGaleria3{ 
+    border-radius: 30px;
+    position: relative;
+    top: -240px;
+    left: 6px;
+}
+.imagGaleria4{
+    border-radius: 30px;
+    position: relative;
+    top: -240px;
+    left: 6px;
+}
