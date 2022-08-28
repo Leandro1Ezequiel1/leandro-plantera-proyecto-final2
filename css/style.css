@@ -6,6 +6,9 @@
 header{
     background-color: #FFCF56;
 }
+.header li{
+    display: flex;
+}
 .navbar{
     background-color: #FFCF56;
     flex-wrap: wrap;
@@ -73,27 +76,113 @@ border-color: inherit;
 border-style: solid;
 border-width: 2px;
 }
-.galeria{
+.imag2{
+    width: 250px;
+}
+.row{
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    flex-wrap: wrap;
+}
+.column{
+    flex: 25%;
+}
+.t1{
+    text-align: center;
+}
+iframe{
+    position: relative;
+    top: 2px;
+    left: 383px;
+    border-radius: 8px;
+
+}
+.contenedorgrid{
     display: block;
 }
-.imagGaleria{
-    border-radius: 30px;   
+.formHeader{
+    background-color:#A0E8AF;
 }
-.imagGaleria2{ 
-    border-radius: 30px;
+.formLabel{
+    background-color: #FFCF56;
     position: relative;
-    top: -136px;
-    left: 524px;
+    text-align: center;
 }
-.imagGaleria3{ 
-    border-radius: 30px;
+.formInput{
+    background-color:aliceblue ;
+}
+.a{
+    
     position: relative;
-    top: -240px;
-    left: 6px;
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
-.imagGaleria4{
-    border-radius: 30px;
+.btnSubmit{
     position: relative;
-    top: -240px;
-    left: 6px;
+    left: 614px;
 }
+
+
+
+
+
+@media(max-width:600px){
+    .GridContainer{
+        grid-template-columns: 50%;
+        left: -35px;
+
+    } 
+   
+}
+@media(max-width:480px){
+    .header{
+        width: 50px;
+
+    }
+    .h1{
+        width: 100px;
+    }
+    .GridContainer{
+        grid-template-columns: 40%;
+        position: relative;
+        left: -104px;    
+    }
+    h2{
+        position: relative;
+        left: 92px;
+    }
+    table{
+        width: 460px;
+    }
+}
+@media(max-width:360px){
+    .header{
+        width: 70px;
+
+    }
+    .imag1{    
+        height: 300px;
+        width: 300px;
+    }
+
+    }
+    .h1{
+        width: 100px;
+    }
+    .GridContainer{
+        grid-template-columns: 40%;
+        position: relative;
+        left: -86px;    
+    }
+    h2{
+        position: relative;
+            left: 92px;
+    }
+    table{
+        width: 360px;
+    }
+
+
